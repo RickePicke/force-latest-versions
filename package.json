@@ -1,0 +1,19 @@
+{
+  "name": "force-latest-versions",
+  "version": "1.0.0",
+  "description": "Rewrites all dependencies and devDependencies to in package.json file to their latest version",
+  "main": "index.js",
+  "author": "Rickard Börjesson",
+  "license": "MIT",
+  "bin": {
+    "force-latest-versions": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RickePicke/force-latest-versions.git"
+  },
+  "dependencies": {
+    "node-exec-promise": "1.0.2",
+    "write-pkg": "3.2.0"
+  }
+}

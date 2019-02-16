@@ -15,5 +15,14 @@
   "dependencies": {
     "node-exec-promise": "1.0.2",
     "write-pkg": "3.2.0"
-  }
+  },
+  "keywords": [
+    "force",
+    "latest",
+    "versions",
+    "versioning",
+    "update",
+    "dependencies",
+    "devDependencies"
+  ]
 }

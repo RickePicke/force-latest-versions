@@ -1,14 +1,14 @@
 # force-latest-versions
-Rewrites all dependencies and devDependencies to in package.json file to their latest version
+Forces all dependencies and devDependencies to latest versions and writes it to the package.json file.
 
 # Installation 
 Globally:
 ```
 $ npm install force-latest-versions -g
 ```
-As devDependency:
+Or as a dependency:
 ```
-$ npm install force-latest-versions -D
+$ npm install force-latest-versions
 ```
 
 # Usage

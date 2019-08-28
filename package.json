@@ -1,6 +1,6 @@
 {
   "name": "force-latest-versions",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Rewrites all dependencies and devDependencies in any package.json file to their latest versions. That's it! Less is more! Keep it simple.. etc.",
   "main": "index.js",
   "author": "Rickard Börjesson",

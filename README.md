@@ -35,7 +35,7 @@ const flv = require('force-latest-versions');
 
 ## Retrun Value
 The return value is an object with the following props:
- * artifact: _The update package.json file_
+ * artifact: _The updated package.json file_
  * dependencies: _The updated dependencies_
  * devDependencies: _The updated dependencies_
 

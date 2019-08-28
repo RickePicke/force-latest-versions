@@ -25,19 +25,19 @@ const flv = require('force-latest-versions');
     try {
         const res = await flv('path/to/artifact'); // Path to the folder of the package.json file
         console.log(res);
-        // Do stuff with res
+        // Do stuff with the result
     } catch(err) {
         console.error(err);
-        // Do stuff with err
+        // catch any error
     }
 })();
 ```
 
 ## Retrun Value
 The return value is an object with the following props:
- * artifact: _The updated package.json file_
+ * artifact: _The updated artifact. An object reflecting package.json file_
  * dependencies: _The updated dependencies_
- * devDependencies: _The updated dependencies_
+ * devDependencies: _The updated devDependencies_
 
 The props "dependencies" and "devDependencies" have the following structure:
 ```javascript

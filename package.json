@@ -1,7 +1,7 @@
 {
   "name": "force-latest-versions",
-  "version": "1.0.1",
-  "description": "Rewrites all dependencies and devDependencies to in package.json file to their latest version",
+  "version": "1.2.0",
+  "description": "Rewrites all dependencies and devDependencies in any package.json file to their latest versions. That's it! Less is more! Keep it simple.. etc.",
   "main": "index.js",
   "author": "Rickard Börjesson",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "node-exec-promise": "1.0.2",
-    "write-pkg": "3.2.0"
+    "write-pkg": "4.0.0"
   },
   "keywords": [
     "force",

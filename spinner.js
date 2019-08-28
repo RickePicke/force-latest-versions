@@ -1,14 +1,15 @@
 module.exports = () => {
-    console.log();
     const pattern = '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏';
-    const message = 'Forcing latest version'
+    const message = 'Forcing latest versions'
     let i = 0;
-    const id = setInterval(function() {
+    
+    process.stdout.write('\n');
+    const id = setInterval(() => {
         i = (i > pattern.length - 1) ? 0 : i;
-        process.stdout.write(`\r \x1b[36m${pattern[i]} ${message}\x1b[0m`);
-        process.stdout.write();
+        process.stdout.write(`\r \x1b[36m ${pattern[i]} ${message}\x1b[0m `);
         i++
     }, 100);
+
     return () => {
         clearInterval(id);
         process.stdout.clearLine();

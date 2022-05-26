@@ -33,7 +33,7 @@ const flv = require('force-latest-versions');
 })();
 ```
 
-## Retrun Value
+## Return Value
 The return value is an object with the following props:
  * artifact: _The updated artifact. An object reflecting package.json file_
  * dependencies: _The updated dependencies_
